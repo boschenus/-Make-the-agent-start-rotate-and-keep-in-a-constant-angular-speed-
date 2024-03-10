@@ -1,0 +1,25 @@
+{
+    "name": "CleanerB",
+    "type": "dynamic",
+    "description": "something",
+    "shape": [
+        {"x": -10, "y": -10},
+        {"x": 10, "y": -10},
+        {"x": 10, "y": 10},
+        {"x": -10, "y": 10}
+    ],
+    "friction": {
+        "collision": 0,
+        "linear": 120,
+        "rotational": 0
+    },
+    "sensors": [
+        {
+            "type": "range",
+            "location": { "x": 12, "y": 0 },
+            "direction": 0
+         }
+    ],
+    "mass": 5,    
+    "controller": "lib/cleaner_b.so"
+}

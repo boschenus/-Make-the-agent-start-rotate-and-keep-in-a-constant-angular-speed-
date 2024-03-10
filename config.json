@@ -1,0 +1,89 @@
+
+{
+    "name": "CleanerA",
+    "ip": "0.0.0.0",
+    "port": 8765,
+
+    "agents": [    
+        
+        {
+            "definition": "defs/cleaner_a.json",
+            "style": { "fill": "red", "stroke": "black" },
+            "position": {
+                "x": -200, 
+                "y": 0, 
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/cleaner_b.json",
+            "style": { "fill": "blue", "stroke": "black" },
+            "position": {
+                "x": 200, 
+                "y": 0, 
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/junk.json",
+            "style": { "fill": "orange", "stroke": "black" },
+            "position": {
+                "x": -100, 
+                "y": 0, 
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/junk_tr.json",
+            "style": { "fill": "orange", "stroke": "black" },
+            "position": {
+                "x": 100, 
+                "y": 0, 
+                "theta": 0
+            }
+        }
+      
+    ],
+
+    "statics": [
+        
+        {
+            "style": { "fill": "red", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": -350,  "y": 200 },
+                { "x": -340,  "y": 200 },
+                { "x": -340, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "blue", "stroke": "none" },
+            "shape": [
+                { "x": 350, "y": -200 },
+                { "x": 350,  "y": 200 },
+                { "x": 340,  "y": 200 },
+                { "x": 340, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": 200 },
+                { "x": 350,  "y": 200 },
+                { "x": 350,  "y": 190 },
+                { "x": -350, "y": 190 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": 350,  "y": -200 },
+                { "x": 350,  "y": -190 },
+                { "x": -350, "y": -190 }
+            ]
+        }
+
+    ]
+
+}

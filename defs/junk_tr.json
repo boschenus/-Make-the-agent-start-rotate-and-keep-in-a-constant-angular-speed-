@@ -1,0 +1,18 @@
+{
+    "name": "JunkTr",
+    "type": "dynamic",
+    "description": "something",
+    "shape": [
+        {"x": -6, "y": -6},
+        {"x": 6, "y": -6},
+        {"x": 0, "y": 5}
+    ],
+    "friction": {
+        "collision": 0,
+        "linear": 0.1,
+        "rotational": 0.1
+    },
+    "sensors": [],
+    "mass": 0.03,    
+    "controller": "lib/junk_tr.so"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Junk",
+    "type": "dynamic",
+    "description": "something",
+    "shape": [
+        {"x": -4, "y": -4},
+        {"x": 4, "y": -4},
+        {"x": 4, "y": 4},
+        {"x": -4, "y": 4}
+    ],
+    "friction": {
+        "collision": 0,
+        "linear": 0.1,
+        "rotational": 0.1
+    },
+    "sensors": [],
+    "mass": 0.03,    
+    "controller": "lib/junk.so"
+}
