@@ -53,7 +53,7 @@ enviro
 ```
 6. Open your browser and go page [localhost](http://localhost/), you could see the client interface. Try to click to add more junks!
 
-## [Elma](https://github.com/klavinslab/enviro) and [Enviro](https://github.com/klavinslab/elma)
+## [Elma](https://github.com/klavinslab/elma) and [Enviro](https://github.com/klavinslab/enviro)
 This project is built on top of Elma and Enviro.
 
 -  Elma is an event loop and process manager for embedded and reactive     systems. Elma is structured as a C++ library of classes on top of which you build your own C++ project. It keeps track of processes, finite state machines, events, and communication channels, executing them at specified frequencies.
