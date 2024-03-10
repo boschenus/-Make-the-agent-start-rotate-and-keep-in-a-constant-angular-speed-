@@ -14,7 +14,7 @@ The rotating robot fitted with a sensor to detects junk. and transports the junk
 ### Junk
 The goal of Cleaners. And users can create a junk by mouse-clicking anywhere in the room. And press 's' in keyboard could change the shape of the added junk(Triangle or square). When a junk that is attached by a robot touches its corresponding junkyard, the junk will disappears (simulating the junk being recycled).
 
-![](/images/add_emo.gif)
+![](/images/add_demo.gif)
 
 ### JunkYard
 Static object, are the blue and red board in the two sides of the room.
@@ -36,11 +36,11 @@ Please make sure that you have installed [Docker](https://docs.docker.com/get-do
 1. Open your CLI in your work dictionary.
 2. Clone this git repo by using: 
 ```bash
-git clone 
+git clone https://github.com/boschenus/Spin-Cleaner.git
 ```
 3. Then change the path by:
 ```bash
-cd
+cd Spin-Cleaner
 ```
 4. Launch the docker in current path: $PWD by:
 ```bash
